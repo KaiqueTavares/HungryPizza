@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HungryPizza</string>
+    <string name="txt_login">Login</string>
+    <string name="hint_login">Informe o Login</string>
+    <string name="txt_senha">Senha</string>
+    <string name="hint_senha">Informe sua Senha</string>
+    <string name="botao_login">Conectar</string>
+</resources>
