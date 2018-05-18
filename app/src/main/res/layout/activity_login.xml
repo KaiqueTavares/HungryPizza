@@ -19,5 +19,24 @@
         android:hint="@string/hint_login"
         android:id="@+id/etLogin"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_senha"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_senha"
+        android:inputType="number"
+        android:id="@+id/etSenha"/>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botao_login"
+        android:id="@+id/btnConcectar"
+        style="@style/Padrao_Botao"/>
+
 
 </LinearLayout>
