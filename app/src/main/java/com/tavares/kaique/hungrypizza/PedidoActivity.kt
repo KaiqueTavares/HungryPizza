@@ -125,7 +125,7 @@ class PedidoActivity : AppCompatActivity() {
             //Inicio minha Activity
             startActivity(telaDetalhePedido)
         })
-        //Aqui estou setando o botão não que se ele clicar não acontece nada
+        //Aqui estou setando o botão não que se ele clicar não acontece nada, ele da hide no alert
         alert.setNegativeButton("NÃO", null)
         //Estou apresentando meu Alert
         alert.show()
